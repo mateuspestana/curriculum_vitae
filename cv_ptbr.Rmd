@@ -4,9 +4,9 @@ surname: Cavalcanti Pestana
 position: "Cientista Político | Cientista de Dados"
 address: "Instituto de Estudos Sociais e Políticos (IESP) da Universidade do Estado do Rio de Janeiro (UERJ)"
 phone: +55 21 999 942 558
-#www: mariecurie.com
+#www: 
 email: "matheus.pestana@iesp.uerj.br"
-#twitter: mariecurie
+#twitter: 
 github: mateuspestana
 linkedin: matheus-pestana
 #date: "`r format(Sys.time(), '%B %Y')`"
