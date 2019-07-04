@@ -1,0 +1,75 @@
+---
+name: Matheus
+surname: Cavalcanti Pestana
+position: "Cientista Político | Cientista de Dados"
+address: "Instituto de Estudos Sociais e Políticos (IESP) da Universidade do Estado do Rio de Janeiro (UERJ)"
+phone: +55 21 999 942 558
+#www: mariecurie.com
+email: "matheus.pestana@iesp.uerj.br"
+#twitter: mariecurie
+github: mateuspestana
+linkedin: matheus-pestana
+#date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+headcolor: 414141
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+pacman::p_load(tidyverse, vitae)
+```
+
+# Formação
+
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Mestrado em Ciência Política", "Instituto de Estudos Sociais e Políticos da UERJ (IESP-UERJ)", "Rio de Janeiro, Brasil", "Mar. 2018 - Presente", "Dissertação sobre os Efeitos de Reformas Eleitorais na Rússia Contemporânea",
+  "Bacharelado em Ciência Política", "Universidade Federal do Estado do Rio de Janeiro", "Rio de Janeiro, Brasil", "Ago. 2012 - Jul. 2016", "Rendimento: 9.1/10.0"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Habilidades 
+
+## Ciência de Dados
+
+- Visualização de Dados, Manipulação de Banco de Dados, Análise de Regressão, Estatística
+
+## Software
+
+- RStudio, Microsoft Office, Adobe Photoshop CC, Adobe Illustrator CC, IBM SPSS, iWork Suite
+
+## Programação
+
+- R, Python (limitado), HTML, CSS, \LaTeX, Markdown
+
+## Línguas
+
+- Português, Inglês, Francês, Espanhol, Russo
+
+# Experiência
+
+```{r jobs}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates,
+  "Assessor Político", "Sistema OCB/RJ - Organizações das Cooperativas Brasileiras", "Rio de Janeiro, Brasil", "Abr. 2018 - Jun. 2018", 
+  "Diretor de Marketing","ENACTUS UNIRIO","Rio de Janeiro, Brasil","Mar. 2018 - Abr. 2018",
+  "Voluntário de Serviços de Interpretação", "Comitê Organizador dos Jogos Olímpicos/Paralímpicos Rio 2016", "Rio de Janeiro, Brasil", "Ago. 2016 - Set. 2016",
+  "Diretor de Marketing","Potentia Assessoria e Consultoria Política (Empresa Jr)","Rio de Janeiro, Brasil"," Abr. 2015 - Jul 2016",
+  "Estagiário","Associação Brasileira de Ciência Política (ABCP)","Rio de Janeiro, Brasil"," Mar. 2015 - Mai. 2015"
+ ) %>% 
+  detailed_entries(role, dates, company, loc)
+```
+
+# Certificados
+
+- ТРКИ (Тест по русскому языку как иностранному) / TORFL (Test of Russian as a Foreign Language)
+  - Emitido por: Universidade Estatal de São Petersburgo / Russia
+  - Nível: A2
+  
+- DELF (Diplôme d'Études en Langue Française ) / DFLS (Diploma in French Language Studies)
+  - Emitido por: Ministério da Educação / França
+  - Nível: B2
+  
+  
