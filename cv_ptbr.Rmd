@@ -26,8 +26,8 @@ library(tidyverse)
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "Doutorado em Ciência Política", "Instituto de Estudos Sociais e Políticos da UERJ (IESP-UERJ)","Rio de Janeiro, Brasil",
-  "Mar. 2020 - Dez. 2024", "Tese sobre Autoritarismo Eleitoral",
-  "Mestrado em Ciência Política", "Instituto de Estudos Sociais e Políticos da UERJ (IESP-UERJ)", "Rio de Janeiro, Brasil", "Mar. 2018 - Dez. 2019", "Dissertação sobre os Efeitos de Reformas Eleitorais na Rússia Contemporânea",
+  "Mar. 2020 - Dez. 2024", "Tese sobre Autoritarismo Eleitoral, sob orientação de Fernando Henrique Eduardo Guarnieri",
+  "Mestrado em Ciência Política", "Instituto de Estudos Sociais e Políticos da UERJ (IESP-UERJ)", "Rio de Janeiro, Brasil", "Mar. 2018 - Dez. 2019", "Dissertação sobre os Efeitos de Reformas Eleitorais na Rússia Contemporânea, \nsob orientação de Fernando Henrique Eduardo Guarnieri",
   "Bacharelado em Ciência Política", "Universidade Federal do Estado do Rio de Janeiro", "Rio de Janeiro, Brasil", "Ago. 2012 - Jul. 2016", "Rendimento: 9.1/10.0"
 ) %>% 
   detailed_entries(degree, dates, uni, loc, details)
@@ -91,7 +91,7 @@ tribble(
 
 # Certificados
 
-- Intercâmbio de 1 mês em Moscou, Rússia
+- Intercâmbio de 1 mês em Moscou, Rússia (Fev. 2020)
     - Emitido por: EF Education First Moscow / Russia
     - Nível: B1
 
