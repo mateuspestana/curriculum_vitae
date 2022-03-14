@@ -1,0 +1,104 @@
+---
+name: Matheus
+surname: Cavalcanti Pestana
+position: "Political Scientist | Data Scientist"
+address: "Institute of Social and Political Studies (*IESP*) at Rio de Janeiro State University (UERJ)"
+phone: +55 21 999 942 558
+www: "mateuspestana.github.io/"
+email: "matheus.pestana@iesp.uerj.br"
+#twitter: 
+github: mateuspestana
+linkedin: matheus-pestana
+#date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+#headcolor: 414141
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "PhD in Political Science", "Institute of Social and Political Studies at Rio de Janeiro State University (IESP-UERJ)","Rio de Janeiro, Brazil",
+  "Mar. 2020 - Feb. 2024", "Thesis on Political Opposition in Autocracies - Advisor: Fernando Henrique Eduardo Guarnieri",
+  "Master in Political Science", "Institute of Social and Political Studies at Rio de Janeiro State University (IESP-UERJ)","Rio de Janeiro, Brazil", "Mar. 2018 - Dec. 2019", "Thesis about the impact of electoral reforms in Russia \nAdvisor: Fernando Henrique Eduardo Guarnieri",
+  "Bachelor in Political Science", "Rio de Janeiro Federal University (UNIRIO)", "Rio de Janeiro, Brazil", "Aug. 2012 - Jul. 2016", "GPA: 9.1/10.0"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Skills 
+
+## Data Science
+
+- Data viz, Data Cleaning, Predictive Models, Machine Learning, Statistics
+
+## Data Experience
+
+- Electoral data, Surveys, Census, Educational Data
+
+## Developing and Systems
+
+- R, Python, Shiny, HTML, CSS, \LaTeX, Markdown, SQL, Swift
+
+## Software
+
+- RStudio, Jupyter, PowerBI, Tableau, Google DataStudio, Microsoft Office
+
+## Languages
+
+- Portuguese (native), English, French, Spanish, Russian
+
+# Experience
+
+```{r jobs}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates,
+  "Associate Researcher", "Institute of Religious Studies (ISER)", "Rio de Janeiro, Brazil", "Oct. 2020 - Today",
+  "Editorial Assistant", "Revista DADOS", "Rio de Janeiro, Brazil", "Jun.2020 - Today",
+  "Political Consultant", "Sistema OCB/RJ - Brazilian Cooperatives Organization", "Rio de Janeiro, Brazil", "Apr. 2018 - Jun. 2018", 
+  "Marketing Director","ENACTUS UNIRIO","Rio de Janeiro, Brazil","Mar. 2018 - Apr. 2018",
+  "Volunteer on Language Services", "Organising Committees for the Olympic/Paralympic Games Rio 2016", "Rio de Janeiro, Brazil", "Aug. 2016 - Sep. 2016",
+  "Marketing Director","Potentia Assessoria e Consultoria Política","Rio de Janeiro, Brazil"," Apr. 2015 - Jul 2016",
+  "Intern","Brazilian Association of Political Science (ABCP)","Rio de Janeiro, Brazil"," Mar. 2015 - May 2015"
+ ) %>% 
+  detailed_entries(role, dates, company, loc)
+```
+
+\newpage
+
+# Courses Taught
+
+```{r courses}
+tribble(
+  ~ course, ~ type, ~ duration, ~ loc, ~ when,
+  "Data Analysis with R", "Workshop", "3 h", "Student's Internal Lectures - IESP-UERJ", "Feb. 2021",
+  "R and Electoral Sciences", "Extension Course", "10 h" ,"School of Political Science - UNIRIO", "Feb. 2021",
+  "Maps in R", "Lecture", "3h", "School of Political Science - UNIRIO", "Dec. 2020",
+  "Minicourse Maps in R", "Minicourse", "3h", "Student's Internal Lectures CPDOC - FGV-Rio", "Nov. 2020",
+  "Quantitative Methods 101 (Lego I)", "Tutorship", "45h", "Prof. Rogério Barbosa / IESP-UERJ", "1º Semester 2020",
+  "Quantitative Methods 101 (Lego I)", "Tutorship", "40h", "Prof. Carlos Antônio Costa Ribeiro / IESP-UERJ",  "1º Semester 2021",
+  "LaTeX and ABNT", "Workshop", "3h", "Student's Internal Lectures - IESP-UERJ", "Sep. 2019"
+) %>% 
+  detailed_entries(loc, when, course, duration, type)
+```
+
+# Diplomas
+
+- Student exchange in Moscow, Russia, for Russian Language Studies (Feb 2020)
+    - Issued by: EF Education First Moscow / Russia
+    - Level: B1
+
+- ТРКИ (Тест по русскому языку как иностранному) / TORFL (Test of Russian as a Foreign Language)
+  - Issued by: Universidade Estatal de São Petersburgo / Russia
+  - Level: A2
+  
+- DELF (Diplôme d'Études en Langue Française ) / DFLS (Diploma in French Language Studies)
+  - Issued by: Ministério da Educação / França
+  - Level: B2

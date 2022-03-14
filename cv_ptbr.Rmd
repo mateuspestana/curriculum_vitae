@@ -43,13 +43,13 @@ tribble(
 
 - Dados eleitorais, educacionais, *survey*, estratificação
 
+## Programação & Sistemas
+
+- R, Python, Shiny, HTML, CSS, \LaTeX, Markdown, Redis, MySQL, Swift
+
 ## Software
 
-- RStudio, Microsoft Office, Adobe Photoshop CC, Adobe Illustrator CC, IBM SPSS, iWork Suite
-
-## Programação
-
-- R, Python, HTML, CSS, \LaTeX, Markdown
+- RStudio, Jupyter Notebooks, Microsoft PowerBI, Tableau, Google DataStudio, Microsoft Office
 
 ## Línguas
 
@@ -80,7 +80,7 @@ tribble(
   ~ course, ~ type, ~ duration, ~ loc, ~ when,
   "Análise de Dados com R", "Oficina", "3 h", "Seminário Discente - IESP-UERJ", "Fev. 2021",
   "R e Ciências Eleitorais", "Curso de extensão", "10 h" ,"Escola de Ciência Política - UNIRIO", "Fev. 2021",
-  "Mapas em R", "Aula", "3h", "Escola de Ciência Política - UNIRIO", "Dez. 2021",
+  "Mapas em R", "Aula", "3h", "Escola de Ciência Política - UNIRIO", "Dez. 2020",
   "Minicurso Mapas em R", "Minicurso", "3h", "Seminário Discente CPDOC - FGV-Rio", "Nov. 2020",
   "Lego I", "Monitoria", "45h", "Prof. Rogério Barbosa / IESP-UERJ", "1º Semestre 2020",
   "Lego I", "Monitoria", "40h", "Prof. Carlos Antônio Costa Ribeiro / IESP-UERJ",  "1º Semestre 2021",
